@@ -1,0 +1,14 @@
+.iconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px
+}
+.icon{
+    width: 20px;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #e9f2ff;
+}

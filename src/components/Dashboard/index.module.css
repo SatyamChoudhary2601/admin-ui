@@ -1,0 +1,25 @@
+.dashboard{
+    background-color: #fff;
+    max-width: 950px;
+    margin: 10px auto;
+    padding: 20px;
+}
+.loading{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error{
+    background: #E74C3C;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+}

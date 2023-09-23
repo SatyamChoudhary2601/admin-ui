@@ -1,0 +1,28 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #dadada;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+}
+
+.searchBar:focus-within {
+    border: 1px solid #003779;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+

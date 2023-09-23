@@ -1,0 +1,61 @@
+.table {
+  width: 100%;
+  color: #01234b;
+}
+
+.table > thead {
+  background-color: #8dc1ff;
+  padding: 20px;
+  margin-top: 10px;
+}
+.table > thead > th {
+  color: #454444;
+}
+.table > tbody > tr {
+  color: #454444;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer; 
+  
+  &:hover{
+    background-color: #e9f2ff;
+  }
+}
+tfoot {
+  margin-top: 10px;
+}
+.deleteBtn {
+  background-color: #fe5071 !important;
+  color: #fff !important;
+}
+.deleteBtn:hover {
+  background-color: #f04b69 !important;
+}
+.deleteBtnRow:hover {
+  background-color: #fff;
+}
+.select {
+  text-align: start;
+  font-weight: 500;
+  font-size: 12px;
+  color: #454444;
+}
+.select > span {
+  font-weight: 700;
+  font-size: 14px;
+  color: #01234b;
+}
+.icon{
+  display: none;
+}
+@media (max-width: 768px) {
+  .tableContainer{
+    overflow: scroll;
+  }
+  .deleteBtn{
+    display: none;
+  }
+  .icon{
+    display: block;
+  }
+}
